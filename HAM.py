@@ -24,6 +24,7 @@ def cal (event):
     valor = round(art*choice*1.19,2)
     val_venta.insert(0,remp(valor))
 
+
 tk.Label(window, text="Valor articulo C/U").grid(row=0, column=0)
 Val_articulo=tk.Entry(window)
 Val_articulo.insert(0,"0")

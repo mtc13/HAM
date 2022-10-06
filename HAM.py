@@ -5,6 +5,7 @@ from remp import *
 
 
 window=tk.Tk()
+window.attributes('-topmost',True)
 window.title("Herramienta de calculo Almacen")
 window.geometry("300x200")
 descu=[35,30]

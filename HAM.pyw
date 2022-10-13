@@ -1,8 +1,6 @@
-
 from select import select
 import tkinter as tk
 from remp import *
-
 
 window=tk.Tk()
 window.attributes('-topmost',True)
